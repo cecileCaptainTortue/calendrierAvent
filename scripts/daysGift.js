@@ -26,5 +26,9 @@ let DaysGifts = [
     {
         type: 'text',
         content: "<p>jour 7</p>"
+    },
+    {
+        type: 'text',
+        content: "<p>jour 8</p>"
     }
 ]
