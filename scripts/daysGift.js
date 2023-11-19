@@ -1,35 +1,35 @@
 let DaysGifts = [
     {
         type: 'text',
-        content: "<p>Tasse Captain Tortue</p>"
+        content: "<img src='./ressources/img/tasseCafe.jpeg'><p>Tasse Captain Tortue</p>"
     },
     {
         type: 'text',
-        content: "<p>Bon d'achat de 15€</p>"
+        content: "<img src='./ressources/img/SacZebre.jpeg'><p>Sac pochette zébré</p>"
     },
     {
         type: 'text',
-        content: "<p>Lunettes de soleil</p>"
+        content: "<img src='./ressources/img/lunette.jpeg'><p>Lunettes de soleil</p>"
     },
     {
         type: 'text',
-        content: "<p>Collier pierre de lune pêche</p>"
+        content: "<img src='./ressources/img/collierPierreLune.jpeg'><p>Collier pierre de lune pêche</p>"
     },
     {
         type: 'text',
-        content: "<p>Serviette de bain</p>"
+        content: "<img src='./ressources/img/drapPlage.jpeg'><p>Drap de plage</p>"
     },
     {
         type: 'text',
-        content: "<p>Kimono été</p>"
+        content: "<img src='./ressources/img/kimono.jpeg'><p>Kimono été</p>"
     },
     {
         type: 'text',
-        content: "<p>Bon d'achat de 20€</p>"
+        content: "<img src='./ressources/img/bonCadeau.jpeg'><p>Bon d'achat de 20€</p>"
     },
     {
         type: 'text',
-        content: "<p>Pochette roseau</p>"
+        content: "<img src='./ressources/img/pochetteRoseau.jpeg'><p>Pochette roseau</p>"
     },
     {
         type: 'text',
@@ -37,7 +37,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Collier 4 rangs coloris gun</p>"
+        content: "<img src='./ressources/img/colier4rangs.jpeg'><p>Collier 4 rangs coloris gun</p>"
     },
     {
         type: 'text',
@@ -45,11 +45,11 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Bon d'achat de 45€</p>"
+        content: "<img src='./ressources/img/bonCadeau.jpeg'><p>Bon d'achat de 45€</p>"
     },
     {
         type: 'text',
-        content: "<p>Bon achat 15€</p>"
+        content: "<img src='./ressources/img/bonCadeau.jpeg'><p>Bon achat 15€</p>"
     },
     {
         type: 'text',
@@ -85,7 +85,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Pochette ethnique</p>"
+        content: "<img src='./ressources/img/pochetteEthnique.jpeg'><p>Pochette ethnique</p>"
     },
     {
         type: 'text',
