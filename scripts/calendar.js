@@ -1,6 +1,6 @@
 function updateDays(cases) {
     let today = new Date(Date.now());
-    let day = today.getDate();
+    let day = today.getDate() + 5;
 
     for (let i = 0; i < cases.length; i ++) {
         let box = cases.item(i);
