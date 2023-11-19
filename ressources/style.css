@@ -102,6 +102,14 @@ h1 {
 .day-gift-content > p {
     font-size: 55px;
     color: white;
+    margin: 0;
+}
+
+.day-gift-content > img {
+    margin-bottom: 15px;
+    max-height: 70%;
+    max-width: 80%;
+    border-radius: 15px;
 }
 
 .day-gift-content > input {
