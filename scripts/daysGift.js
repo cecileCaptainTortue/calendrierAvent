@@ -69,7 +69,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Echarpes</p>"
+        content: "<img src='./ressources/img/echarpe.jpeg'><p>Echarpes</p>"
     },
     {
         type: 'text',
@@ -81,7 +81,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Poncho intérieur</p>"
+        content: "<img src='./ressources/img/poncho.jpeg'><p>Poncho intérieur</p>"
     },
     {
         type: 'text',
@@ -89,10 +89,10 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Cahier, protège cahier et stylo</p>"
+        content: "<img src='./ressources/img/foulard.jpeg'><p>Foulard</p>"
     },
     {
         type: 'text',
-        content: "<p>Sac week-end</p>"
+        content: "<img src='./ressources/img/sacVoyage.jpeg'><p>Sac week-end</p>"
     }
 ]
