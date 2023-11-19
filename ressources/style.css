@@ -88,15 +88,19 @@ h1 {
     margin: 6.25% auto;
     width: 75%;
     height: 75%;
-    background-color: rgb(175, 62, 77); /* TODO: changer l'apparence */
+    background-color: rgb(175, 62, 77);
     opacity: inherit;
     transition: all 0.2s ease;
     padding: 20px;
     border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .day-gift-content > p {
-    font-size: 40px;
+    font-size: 55px;
     color: white;
 }
 

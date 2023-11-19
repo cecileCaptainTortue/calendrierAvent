@@ -9,7 +9,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Lunette de soleil</p>"
+        content: "<p>Lunettes de soleil</p>"
     },
     {
         type: 'text',
