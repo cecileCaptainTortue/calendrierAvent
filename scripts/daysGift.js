@@ -33,7 +33,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Trousse cuir Paul Marius</p>"
+        content: "<img src='./ressources/img/trousseCuir.jpeg'><p>Trousse cuir Paul Marius</p>"
     },
     {
         type: 'text',
@@ -41,7 +41,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Sac en jean</p>"
+        content: "<img src='./ressources/img/sacJean.jpeg'><p>Sac en jean</p>"
     },
     {
         type: 'text',
@@ -53,31 +53,31 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<p>Paire de gant</p>"
+        content: "<img src='./ressources/img/gants.jpeg'><p>Paire de gant</p>"
     },
     {
         type: 'text',
-        content: "<p>-30% sur ton article préféré collection printemps été 2024</p>"
+        content: "<img src='./ressources/img/collection.jpg'><p>-30% sur ton article préféré collection printemps été 2024</p>"
     },
     {
         type: 'text',
-        content: "<p>Ensemble post-it et stylo</p>"
+        content: "<img src='./ressources/img/postIt.jpeg'><p>Ensemble post-it et stylo</p>"
     },
     {
         type: 'text',
-        content: "<p>-50% sur ton accessoire préféré printemps été 2024</p>"
+        content: "<img src='./ressources/img/collection.jpg'><p>-50% sur ton accessoire préféré printemps été 2024</p>"
     },
     {
         type: 'text',
-        content: "<p>Foulard</p>"
+        content: "<p>Echarpes</p>"
     },
     {
         type: 'text',
-        content: "<p>Gourde Isotherme + Porte téléphone</p>"
+        content: "<img src='./ressources/img/gourde.jpeg'><p>Gourde Isotherme + Porte téléphone</p>"
     },
     {
         type: 'text',
-        content: "<p>Sac bande sequin</p>"
+        content: "<img src='./ressources/img/sacBandeSequin.jpeg'><p>Sac bande sequin</p>"
     },
     {
         type: 'text',
