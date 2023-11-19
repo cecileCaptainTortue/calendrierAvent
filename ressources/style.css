@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500;700&display=swap');
+
+* {
+    font-family: 'Cormorant Upright', serif;
+}
+
+body {
+    text-align: center;
+    background-color: silver;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/* ------------------------------Partie calendrier--------------------------- */
+#container-case {
+    display: grid;
+    width: min-content;
+    height: min-content;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(4, auto);
+    column-gap: 8px;
+    row-gap: 8px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#container-case div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: white;
+}
+
+#container-case div img {
+    margin-top: 20px;
+    width: 80px;
+    transition: all 0.3s ease;
+}
+
+#container-case .unlocked:hover img {
+    margin-top: 15px;
+    width: 90px;
+}
+
+.locked {
+    background-color: #2d2b2e;
+}
+
+.unlocked {
+    background-color: #ea6f8e;;
+}
+
+.unlocked:hover {
+    background-color: rgb(217, 72, 108);
+}
+
+.day-gift {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 96, 96, 0.244);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.day-gift-content {
+    margin: 6.25% auto;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(175, 62, 77); /* TODO: changer l'apparence */
+    opacity: inherit;
+    transition: all 0.2s ease;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.day-gift-content > p {
+    font-size: 40px;
+    color: white;
+}
+
+.day-gift-content > input {
+    font-size: 35px;
+    height: 50px;
+    width: 75%;
+    text-align: left;
+    border-radius: 50px;
+    padding: 0px 20px;
+}
+
+.day-gift-content > button {
+    font-size: 35px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 0 10px;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.day-gift-content > button:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+.day-gift-content > button:active {
+    background-color: rgb(153, 150, 150);
+}
+
+#badAnswerMessage {
+    color: red;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* ------------------------------Partie background--------------------------- */
+.ball {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 0 0 30px grey;
+    transition: all 0.2s ease;
+}
+
+.ball:hover {
+    box-shadow: 0 0 40px white;
+    opacity: 1;
+}
+
+/* ------------------------------Partie animation---------------------------- */
+@keyframes ballAnimation {
+    0% {
+        transform: translateY(-70px) translateX(0);
+    }
+    33% {
+        transform: translateY(375px) translateX(75px);
+    }
+    66% {
+        transform: translateY(750px) translateX(-75px);
+    }
+    100% {
+        transform: translateY(1080px) translateX(0);
+    }
+}
+
+.shake-animation {
+    animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.error-animation {
+    animation: error 0.5s ease;
+}
+
+@keyframes error {
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
