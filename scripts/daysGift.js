@@ -69,7 +69,7 @@ let DaysGifts = [
     },
     {
         type: 'text',
-        content: "<img src='./ressources/img/echarpe.jpeg'><p>Echarpes</p>"
+        content: "<img src='./ressources/img/echarpe.jpeg'><p>Echarpe</p>"
     },
     {
         type: 'text',
