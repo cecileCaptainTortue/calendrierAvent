@@ -2,9 +2,9 @@ function updateDays(cases) {
     let today = new Date(Date.now());
     let day = today.getDate();
 
-    // if (today.getMonth() != 11) {
-    //     day = 0;
-    // }
+    if (today.getMonth() != 11) {
+        day = 0;
+    }
 
     for (let i = 0; i < cases.length; i ++) {
         let box = cases.item(i);
