@@ -16,12 +16,16 @@ function updateDays(cases) {
         }
 
         box.addEventListener('click', function() {
-            if (box.classList.contains('unlocked'))
+            if (box.classList.contains('unlocked') && dayIsOpen(box.id.substring(4), today))
                 displayDay(box.id.substring(4));
             else
                 AddAnimation(box, 'shake-animation');
         })
     }
+}
+
+function dayIsOpen(dayNo, today) {
+    return (dayNo <= today.getDate()) && (today.getMonth() == 11);
 }
 
 function displayDay(DayNo) {
